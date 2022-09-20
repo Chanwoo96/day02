@@ -1,0 +1,11 @@
+body {
+    /* 속성명 : 속성값; */
+    /* : - 콜론 ; - 세미콜론 */
+    background: rgb(157, 225, 212);
+    color: rgb(133, 69, 112);
+    text-align: center;
+}
+a{text-decoration: none; color: darkgoldenrod;}
+a:hover{text-decoration: underline;color: red;}
+
+/* body라는 태그를 만나면 배경색은 아쿠아색, 글자색은 살몬색 스타일을 지정  */

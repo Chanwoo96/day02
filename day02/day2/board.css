@@ -1,0 +1,4 @@
+body{align-content: center;}
+input{background: pink; border-color: white;}
+button{color: green; width: 50%;}
+button:hover{ font-weight: bold;}
