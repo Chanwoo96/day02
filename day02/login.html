@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input:disabled{background: beige;}
+        input:focus{background-color: rebeccapurple;}
+        button:hover{color: red;
+        background-color: aqua;
+    font-weight: bold;}
+    input[type = text]{background-color: red; color: white;font-size: 30px;}
+    input[type = password]{background-color: greenyellow; color: blue;font-size: 20px;}
+    img[src$=png]{width: 300px;height: 200px;border: 10px solid red;}
+    img[src$=jpeg]{width: 400px;height: 300px;border:20px dotted lime;}
+    img[src$=gif]{width: 500px;height: 500px;border: 30px double blue;}
+
+    </style>
+</head>
+<body>
+    <form>
+        user : <input type="text" name="user"   value="apple" disabled><br>
+        pass :  <input type="password"name="pass"><br>
+        name : <input type="text" name="name" id=""><br>
+        <button>재로그인하기</button>
+        <hr>
+        <img src="img/red.png" alt=""><br>
+        <img src="img/red.jpeg" alt=""><br>
+        <img src="img/giphy.gif" alt="">
+    </form>
+</body>
+</html>

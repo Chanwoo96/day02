@@ -1,0 +1,6 @@
+body{align-content: center; color: blue;/*글자색*/}
+input{background: pink; border-color: white;}
+button{color: green; width: 50%;background: white;}
+button:hover{ font-weight: bold;}
+#tr{background: yellow; text-align: center;}
+.th{color: black;background: lime;}

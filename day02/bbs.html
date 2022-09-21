@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="board.css">
+    <style>
+        div{font-size: 15px; font-weight: bold;color: blue;}
+        #total{width: 100%;height: 1000px;}
+        #top{background-color: greenyellow;
+        width: 100%;height: 100px;}
+        li{list-style: none;
+        display: inline;
+        float: left;
+        padding: 10px;
+        width: 70px;
+        height: 20px;
+        border-radius: 50px 50px 50px 50px;
+        text-align: center;
+        font-weight: bold;
+    }
+    li:nth-child(2n){background: orange;}
+        li:nth-child(2n+1){background: yellow;}
+        #top2{background-color: black;
+        color: yellow;
+    border-radius:100px 10px ;
+width: 250px;
+height: 100px;
+position: fixed;
+top: 5px;
+right: 5px;
+text-align: center;}
+td:hover{background: lemonchiffon;}
+    td{text-align: center; color: blue;}
+    .input{background: yellow;}
+    </style>
+</head>
+<body>
+    <div id="total">
+        <div id="top">
+            메뉴
+        
+            <ul>
+                <li><a href="member.html">회원가입</a></li>
+                <li><a href="member.html">제품정보</a></li>
+                <li><a href="bbs.html">게시판</a></li>
+                <li><a href="basket.html">장바구니</a> </li>
+            </ul>
+        </div>
+        <div id="top2">장바구니</div>
+    
+        <div id="center">
+            <form>
+                <table align="center" border="1">
+                    <tr>
+                        <th class="th" style="width: 35%;">항목</th>
+                        <th class="th">입력</th>
+                    </tr>
+                    <tr>
+                        <td>번호</td>
+                        <td class="input"><input type="text" name="num" id="num"></td>
+                        
+                    </tr>
+                    <tr>
+                        <td>제목</td>
+                        <td class="input"><input type="text" name="num" id="num"></td>
+                        
+                        
+                    </tr>
+                    <tr>
+                        <td>내용</td>
+                        <td class="input"><input type="text" name="num" id="content"></td>
+                        
+                        
+                    </tr>
+                    <tr>
+                        <td>작성자</td>
+                        <td class="input"><input type="text" name="num" id="writer"></td>
+                        
+                        
+                    </tr>
+                    <tr id="tr">
+                        <td colspan="2"><button>글쓰기 완료.</button></td>
+                        
+            
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

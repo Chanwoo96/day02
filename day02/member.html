@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="out0.css">
+    <style>
+        div{font-size: 15px; font-weight: bold;color: blue;}
+        #total{width: 100%;height: 1000px;}
+        #top{background-color: greenyellow;
+        width: 100%;height: 100px;}
+        li{list-style: none;
+        display: inline;
+        float: left;
+        padding: 10px;
+        width: 70px;
+        height: 20px;
+        border-radius: 50px 50px 50px 50px;
+        text-align: center;
+        font-weight: bold;
+    }
+    li:nth-child(2n){background: orange;}
+        li:nth-child(2n+1){background: yellow;}
+        #top2{background-color: black;
+        color: yellow;
+    border-radius:100px 10px ;
+width: 250px;
+height: 100px;
+position: fixed;
+top: 5px;
+right: 5px;
+text-align: center;}
+textarea{background: aqua;}
+    #find{background: black;} 
+    #name{background: gold;color: violet;}
+    #tel{background: gray;font-weight: bold;}
+    .gender{color: brown;}
+    .login{background: blue;
+    border-color: red;}
+    #center{text-align: center;}
+    </style>
+</head>
+<body>
+    <div id="total">
+        <div id="top">
+            메뉴
+        
+            <ul>
+                <li><a href="member.html">회원가입</a></li>
+                <li><a href="member.html">제품정보</a></li>
+                <li><a href="bbs.html">게시판</a></li>
+                <li><a href="basket">장바구니</a> </li>
+            </ul>
+        </div>
+        <div id="top2">장바구니</div>
+    
+        <div id="center">     
+        <form action="member">
+            <table >
+                <tr ><td colspan="2"><h3>회원가입</h3></td></tr>
+                <tr>
+                    <td>가입할 ID</td>
+                    <td><input type="text" name="id"></td>
+                </tr>
+                <tr>
+                    <td>가입할 PW</td>
+                    <td><input type="password" name="pw"></td>
+                    
+                </tr>
+                <tr>
+                    <td>가입할 name</td>
+                    <td><input type="text" name="name"></td>
+                    
+                </tr>
+                <tr>
+                    <td>성별</td>
+                    <td><input type="radio" name="gender" value="man"> 남
+                        <input type="radio" name="gender" value="woman"> 여</td>
+                    
+                </tr>
+                <tr>
+                    <td> 휴대폰 통신사</td>
+                    <td><select name="tel">
+                        <option value="sktelecom">SKT</option>
+                        <option value="kt">KT</option>
+                        <option value="lgtelecom">LGU</option>
+                        <option value="etctelecom">알뜰폰</option></td>
+                    
+                </tr>
+                <tr>
+                    <td>휴대폰 번호</td>
+                    <td ></select><input type="text" name="number" placeholder="-빼고 숫자만 쓰시오."></td>
+                </tr>
+                <tr>
+                    <td> 생년월일</td>
+                    <td><input type="date" name="birth"></td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    
+                </tr>
+                <tr>
+                    
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+    
+                </tr>
+            </table>
+        </form></div>
+    </div>
+</body>
+</html>
